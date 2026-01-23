@@ -6,3 +6,10 @@ Desenvolver o cabeçalho da aplicação, chamado normalmente de **navbar**, com 
 ![Esperado, e-mail recebido](/assets/cabecalho.webp)
 
 ---
+
+## Dia 2
+Desenvolver a primeira seção da aplicação, a primeira **section** que temos no site, com as informações de textos (1 span, 1 header e 1 paragrafo).
+
+![Esperado, e-mail recebido](/assets/primeira-secao.webp)
+
+---
