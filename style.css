@@ -52,3 +52,34 @@ nav {
   color: var(--branco);
   border-radius: 8px;
 }
+
+.primeira-secao {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.primeira-secao span {
+  color: var(--vermelho-escuro);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.primeira-secao h1 {
+  padding-right: 32px;
+  padding-left: 32px;
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.paragrafo-primeira-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--cinza);
+  padding-top: 12px;
+}
