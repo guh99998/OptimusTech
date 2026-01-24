@@ -4,6 +4,7 @@
   --vermelho-escuro: #8E2424;
   --cinza: #667085;
   --branco: #FFFFFF;
+  --preto: #101828;
 }
 
 * {
@@ -11,6 +12,11 @@
   padding: 0;
   text-decoration: none;
   font-family: "Inter", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
 }
 
 header {
@@ -82,4 +88,38 @@ nav {
   align-items: center;
   color: var(--cinza);
   padding-top: 12px;
+}
+
+.metrics-section {
+  display: flex;
+  padding-bottom: 96px; 
+  gap: 64px;
+  align-items: center;
+  justify-content: center;
+}
+
+.metrics-section div {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-right: 32px;
+  padding-left: 32px;
+}
+
+.metrics-section h2 {
+  color: var(--vermelho-escuro);
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.metrics-section span {
+  font-size: 18px;
+  color: var(--preto);
+  font-weight: 500;
+}
+
+.metrics-section p {
+  font-size: 16px;
+  color: var(--cinza);
+  font-weight: 400;
 }
