@@ -2,6 +2,7 @@
 
 :root {
   --vermelho-escuro: #8E2424;
+  --vermelho-claro: #8E24240D;
   --cinza: #667085;
   --branco: #FFFFFF;
   --preto: #101828;
@@ -130,4 +131,46 @@ nav {
   font-size: 16px;
   font-weight: 400;
   color: var(--cinza);
+}
+
+.section-vagas {
+  display: flex;
+  flex-direction: column;
+}
+
+.talentos {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.talentos span {
+  padding-top: 4px;
+  padding-right: 12px;
+  padding-bottom: 4px;
+  padding-left: 12px;
+  border-radius: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--vermelho-escuro);
+  background-color: var(--vermelho-claro);
+}
+
+.talentos h2 {
+  color: var(--preto);
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.talentos p {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--cinza);
+}
+
+.talentos img {
+  width: 1216px;
+  height: 400px;
 }
