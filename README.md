@@ -18,3 +18,10 @@ Desenvolver a primeira seção da aplicação, a primeira **section** que temos 
 Desenvolver a section de metrics e resultados da pagina. Vamos incluir 4 medidas diferentes: com titulo, subtitulo e um texto.
 
 ![Esperado, e-mail recebido](/assets/metrics-section.png)
+
+---
+
+## Dia 4
+Desenvolver a seção de "Estamos procurando por talentos".
+
+![Esperado, e-mail recebido](/assets/section-talentos.webp)
