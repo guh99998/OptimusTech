@@ -25,3 +25,10 @@ Desenvolver a section de metrics e resultados da pagina. Vamos incluir 4 medidas
 Desenvolver a seção de "Estamos procurando por talentos".
 
 ![Esperado, e-mail recebido](/assets/section-talentos.webp)
+
+---
+
+## Dia 5
+Desenvolver a área de vagas mencionadas, como "Design", "Desenvolvimento de Software" etc.
+
+![Esperado, e-mail recebido](/assets/area-de-vagas.webp)
