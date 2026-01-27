@@ -32,3 +32,10 @@ Desenvolver a seção de "Estamos procurando por talentos".
 Desenvolver a área de vagas mencionadas, como "Design", "Desenvolvimento de Software" etc.
 
 ![Esperado, e-mail recebido](/assets/area-de-vagas.webp)
+
+---
+
+## Dia 6
+Desenvolver a área de Depoimentos, a seção terá um pequeno texto acima, um título, uma imagem de uma colaboradora, além do nome e cargo dentro da empresa.
+
+![Esperado, e-mail recebido](/assets/depoimentos.webp)
