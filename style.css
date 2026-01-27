@@ -4,6 +4,7 @@
   --vermelho-escuro: #8E2424;
   --vermelho-claro: #8E24240D;
   --cinza: #667085;
+  --cinza-claro: #EAECF0;
   --branco: #FFFFFF;
   --preto: #101828;
 }
@@ -136,6 +137,7 @@ nav {
 .section-vagas {
   display: flex;
   flex-direction: column;
+  gap: 32px;
 }
 
 .talentos {
@@ -171,6 +173,48 @@ nav {
 }
 
 .talentos img {
+  margin-top: 32px;
   width: 1216px;
   height: 400px;
+}
+
+.vagas {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 32px;
+}
+
+.vagas h2 {
+  width: 768px;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--preto);
+  margin-top: 32px;
+}
+
+.vaga {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--cinza-claro);
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 28px;
+  padding-left: 24px;
+  gap: 32px;
+  border-radius: 16px;
+}
+
+.titulo-vaga {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--preto);
+}
+
+.informacoes {
+  display: flex;
+  gap: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var();
 }
