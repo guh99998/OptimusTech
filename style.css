@@ -7,6 +7,9 @@
   --cinza-claro: #EAECF0;
   --branco: #FFFFFF;
   --preto: #101828;
+  --cinza-footer: #F9FAFB;
+  --cinza-copy: #98A2B3;
+  --cinza-input: #D0D5DD;
 }
 
 * {
@@ -281,4 +284,73 @@ nav {
   font-size: 14px;
   font-weight: 400;
   color: var(--cinza);
+}
+
+footer {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  background-color: var(--cinza-footer);
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.textos-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.textos-footer h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--preto);
+}
+
+.textos-footer p {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--cinza);
+}
+
+.botao-footer {
+  display: flex;
+  gap: 16px;
+}
+
+.botao-footer input {
+  border: 1px solid var(--cinza-input);
+  border-radius: 8px;
+  padding-top: 12px;
+  padding-right: 14px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  width: 360px;
+}
+
+.botao-footer a {
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  background-color: var(--vermelho-escuro);
+  color: var(--branco);
+  border-radius: 8px;
+}
+
+input::placeholder {
+  color: var(--cinza);
+}
+
+.container-footer p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--cinza-copy);
 }
