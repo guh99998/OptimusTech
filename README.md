@@ -39,3 +39,10 @@ Desenvolver a área de vagas mencionadas, como "Design", "Desenvolvimento de Sof
 Desenvolver a área de Depoimentos, a seção terá um pequeno texto acima, um título, uma imagem de uma colaboradora, além do nome e cargo dentro da empresa.
 
 ![Esperado, e-mail recebido](/assets/depoimentos.webp)
+
+---
+
+## Dia 7
+Desenvolver a área do rodapé, nessa seção terá um título, um formulário com um campo de entrada para o e-mail e um botão. Além disso, também há um texto de copyright abaixo.
+
+![Esperado, e-mail recebido](/assets/rodape.webp)
